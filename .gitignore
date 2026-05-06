@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .vercel
+
+# Security - exclude sensitive GitHub workflows
+.github/workflows/deploy.yml
